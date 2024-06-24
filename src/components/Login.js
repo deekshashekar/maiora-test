@@ -16,12 +16,6 @@ const Login = () => {
     } else {
       setError("Invalid username or password");
     }
-    // const postData = await fetch("", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-type": "application/json",
-    //   },
-    // });
   };
   return (
     <div>
